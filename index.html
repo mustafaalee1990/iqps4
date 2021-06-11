@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+    <meta charset="utf-8"><title>GoldHen Host Menu v2</title>
+    
+    <link rel="stylesheet" href="img/index.css">
+<style>
+.btn {
+width: 500px;
+height: 50px;
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+margin-top: 15px;
+margin-bottom: 5px;
+margin-left: 15px;
+margin-right: 5px;
+border-bottom-width: 0px;
+border-right-width: 0px;
+border-top-width: 0px;
+border-left-width: 0px;
+-webkit-transition-duration: 0.4s;
+transition-duration: 0.4s;
+cursor: pointer;
+}
+.btn-main {
+background-color: red;
+color: white;
+border-radius: 20px;
+}
+.btn-main:hover {
+background-color: white;
+color: red;
+border-radius: 25px;
+}
+</style></head><body style="color: white; font-size: 20px; text-align: center;" class="bg">
+<h1 style="margin: 0pt; font-size: 40px; text-shadow: rgb(243, 193, 8) 4px 4px 4px;">&nbsp;&nbsp;&nbsp; <br>
+</h1>
+<h3 style="margin: 0pt; font-size: 26px; text-shadow: rgb(222, 0, 41) 4px 4px 4px;"><i><br>
+</i></h3>
+<hr><br><br><br><br><br><br><br>
+<h2 id="msgs">&nbsp;&nbsp;&nbsp; <br>
+</h2>
+<button><a onmouseover="msgs.innerHTML='GoldHen paylaod for 5.05 PS4'" onmouseout="msgs.innerHTML='Choose your GoldHen firmware'" href="505/checker.html"><img src="img/Fat.png"></a></button>
+<button><a onmouseover="msgs.innerHTML='GoldHen paylaod for 6.72 PS4'" onmouseout="msgs.innerHTML='Choose your GoldHen firmware'" href="672/checker.html"><img src="img/Slim6.png"></a></button>
+<button><a onmouseover="msgs.innerHTML='GoldHen paylaod for 7.02 & 7.05 PS4'" onmouseout="msgs.innerHTML='Choose your GoldHen firmware'" href="702/index.html"><img src="img/Slim7.png"></a></button>
+<button><a onmouseover="msgs.innerHTML='GoldHen paylaod for 7.55 PS4'" onmouseout="msgs.innerHTML='Choose your GoldHen firmware'" href="755/checker.html"><img src="img/Pro.png"></a></button>
+<button><a onmouseover="msgs.innerHTML='GoldHen paylaod for 7.55 PS4 Only, Prb Host mod'" onmouseout="msgs.innerHTML='Choose your GoldHen firmware'" href="new/index.html"><img src="img/New.png"></a></button>
+<br><a href="checker.html"><button class="btn btn-main">✔ Press here for auto detect firmware ✔ </button></a>
+<div style="position: fixed; left: 0pt; bottom: -8px; width: 100%; font-size: 16px;">
+<hr><i>*Original host by Leefull, mod by Chronoss, GoldHen by Sistr0
+&amp; Joonie86, Prb style
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*PS4
+Firmware <span id="PS4fw"></span></i><hr>
+</div>
+<i><script>
+UA = navigator.userAgent.substring(navigator.userAgent.indexOf("0.00 (") + 28, navigator.userAgent.indexOf(") Apple")); PS4fw.innerHTML=""+UA+" Detected";
+</script>
+</i></body></html>
